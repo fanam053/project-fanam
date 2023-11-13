@@ -1,0 +1,27 @@
+/* =========================================================================================
+    File Name: size.scss
+    Description: size  Component in  page sass
+    Component Name: size component
+    ----------------------------------------------------------------------------------------
+    Item Company: Fanam 
+      Author: pooria vakili
+
+==========================================================================================*/
+@mixin font-xs{
+    font-size: 12px;
+  }
+
+  @mixin font-xxs{
+    font-size:10px;
+  }
+ 
+  @mixin font-ssm{
+    font-size:13px;
+  }
+  @mixin font-sm{
+    font-size:14px;
+  }
+
+  @mixin font-change-two {
+    font-size: 8px;
+  }

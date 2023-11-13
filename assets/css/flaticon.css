@@ -1,0 +1,86 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/02/2018 04:54
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./fontflaticon/Flaticon.eot");
+  src: url("./fontflaticon/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./fontflaticon/Flaticon.woff") format("woff"),
+       url("./fontflaticon/Flaticon.ttf") format("truetype"),
+       url("./fontflaticon/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./fontflaticon/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.flaticon-left:before { content: "\f100"; }
+.flaticon-left-quotes-sign:before { content: "\f101"; }
+.flaticon-social:before { content: "\f102"; }
+.flaticon-note-1:before { content: "\f103"; }
+.flaticon-envelope:before { content: "\f104"; }
+.flaticon-technology:before { content: "\f105"; }
+.flaticon-phone-settings:before { content: "\f106"; }
+.flaticon-old:before { content: "\f107"; }
+.flaticon-people-1:before { content: "\f108"; }
+.flaticon-tool-2:before { content: "\f109"; }
+.flaticon-construction-11:before { content: "\f10a"; }
+.flaticon-construction-10:before { content: "\f10b"; }
+.flaticon-business:before { content: "\f10c"; }
+.flaticon-paint-1:before { content: "\f10d"; }
+.flaticon-paint:before { content: "\f10e"; }
+.flaticon-computer:before { content: "\f10f"; }
+.flaticon-note:before { content: "\f110"; }
+.flaticon-arrows:before { content: "\f111"; }
+.flaticon-favorite-1:before { content: "\f112"; }
+.flaticon-signs:before { content: "\f113"; }
+.flaticon-favorite:before { content: "\f114"; }
+.flaticon-can:before { content: "\f115"; }
+.flaticon-draw:before { content: "\f116"; }
+.flaticon-construction-9:before { content: "\f117"; }
+.flaticon-people:before { content: "\f118"; }
+.flaticon-wrench-1:before { content: "\f119"; }
+.flaticon-wall:before { content: "\f11a"; }
+.flaticon-construction-8:before { content: "\f11b"; }
+.flaticon-tool-1:before { content: "\f11c"; }
+.flaticon-construction-7:before { content: "\f11d"; }
+.flaticon-tools-1:before { content: "\f11e"; }
+.flaticon-window:before { content: "\f11f"; }
+.flaticon-roller:before { content: "\f120"; }
+.flaticon-transport-1:before { content: "\f121"; }
+.flaticon-construction-6:before { content: "\f122"; }
+.flaticon-cogwheel:before { content: "\f123"; }
+.flaticon-layers:before { content: "\f124"; }
+.flaticon-drawing-1:before { content: "\f125"; }
+.flaticon-rectangles-1:before { content: "\f126"; }
+.flaticon-transport:before { content: "\f127"; }
+.flaticon-tool:before { content: "\f128"; }
+.flaticon-construction-tool-vehicle-with-crane-lifting-materials:before { content: "\f129"; }
+.flaticon-skyline:before { content: "\f12a"; }
+.flaticon-engineer:before { content: "\f12b"; }
+.flaticon-tools:before { content: "\f12c"; }
+.flaticon-drawing:before { content: "\f12d"; }
+.flaticon-multimedia:before { content: "\f12e"; }
+.flaticon-construction-5:before { content: "\f12f"; }
+.flaticon-construction-4:before { content: "\f130"; }
+.flaticon-construction-3:before { content: "\f131"; }
+.flaticon-apartment:before { content: "\f132"; }
+.flaticon-wrench:before { content: "\f133"; }
+.flaticon-construction-2:before { content: "\f134"; }
+.flaticon-construction-1:before { content: "\f135"; }
+.flaticon-rectangles:before { content: "\f136"; }
+.flaticon-construction:before { content: "\f137"; }
+.flaticon-school:before { content: "\f138"; }

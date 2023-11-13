@@ -1,0 +1,4255 @@
+/* =========================================================================================
+    File Name: index.scss
+    Description: all  Component in  page css
+    Component Name: all component
+    ----------------------------------------------------------------------------------------
+    Item Company: Fanam 
+      Author: pooria vakili
+
+==========================================================================================*/
+//spacer
+@import "./mixins/spacer";
+//size
+@import "./mixins/_size";
+//varibles
+@import "./varibles/_color";
+.font-change-finish{
+  position:  relative;
+  top:30px !important
+}
+.asset-twenty{
+  position: relative;
+  top:-60px
+}
+
+.img-rectangle-top{
+  position: relative;
+  top:30px
+}
+.software-change-two{
+  color:#0083a1 !important;
+ 
+}
+.readmore-change-font{
+  color:#0083a1 !important;
+
+}
+.software-change{
+  font-size: 16px;
+}
+//nabar
+.gray-light {
+  background-color: $LightGray ;
+}
+.height-services{
+  // background-image: ;
+  background-image: url('/Asset 65-100.jpg');
+
+}
+
+//navbar
+//header-info
+.image-fanam {
+  height: 70px;
+  margin-top: 20px;
+  position: relative;
+  right:5px
+}
+
+//layout 
+.scroll-top {
+  width: 50px;
+  height: 40px;
+  font-size: 10px;
+}
+
+//layout
+
+.input-search{
+  border: unset;
+  border-radius: 10px;height: 30px;background-color: #1b4b56;
+}
+.img-mail{
+  height: 12px;position: relative;top:5px
+}
+.icon-search-input{
+  position: relative !important;
+  height: 20px;
+  top:5px !important
+}
+.input-search:focus{
+  background-color: $white
+}
+.search-change {
+  @include relative-position;
+  right: 218px;
+width:23rem;
+
+}
+
+.image-box:hover .image-box-icon {
+display: none !important ;
+
+}
+
+.image-box:hover .caption{
+  background-color: #002833 !important;
+}
+.navbar-change-one {
+  display: none;
+
+}
+
+.p-tieredmenu-root-list {
+  padding: 10px;
+
+}
+
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  @include color-white;
+}
+
+.font-style-none {
+  font-style: unset;
+}
+
+
+.bottom-right {
+  bottom: 20px;
+  right: 20px;
+  @include cursor-mouse;
+}
+
+//header info
+
+.change-icon-all {
+  @include relative-position;
+  right: 20px;
+}
+
+.mail {
+  width: 15px;
+  height: 10px;
+  @include relative-position;
+}
+
+.change-banner {
+  @include relative-position;
+  left: 10px;
+  height: 113px
+}
+
+.tel-icon {
+  @include relative-position;
+  right: 26px;
+}
+
+.font-change {
+  @include font-ssm;
+}
+
+.font-change-one {
+  @include font-ssm;
+
+}
+
+.change-svg-email {
+  margin-top: 19px;
+}
+
+
+
+.navbar-fanam{
+  width:1200px;border-radius: 0px 0 25px 25px;margin-top:9px;right: -5px;
+}
+
+//header-info 
+
+//welcome-navbar
+.change-content {
+  @include relative-position;
+  right: 72px;
+}
+
+.change-dropdown {
+  @include relative-position;
+  top: -2px;
+
+  .dropdown-menu.show {
+    margin-top: -30px;
+    margin-left: 30px;
+
+  }
+
+  .dropdown-menu {
+    min-width: 0px;
+  }
+}
+
+.change-blog {
+  @include relative-position;
+  top: 90px
+}
+
+
+
+
+.new-blog-mataleb {
+  @include relative-position;
+  top: 60px;
+}
+
+
+
+.form-all-contact {
+  @include relative-position;
+  top: 10px
+}
+
+.send-form-button {
+  @include relative-position;
+  top: 80px;
+  right: -20px
+}
+
+.faranam-change {
+  @include relative-position;
+  margin-top: -20px 
+}
+
+
+
+.banner {
+  background-image: url('/banner.jpg');
+  height: auto;
+}
+
+
+.item-all{
+  position: relative;
+  top:-20px !important;
+  height: 278px !important;
+}
+@media(max-width:990px) {
+  .tel-icon {
+    width: 300px;
+  }
+
+  .item-all {
+    height: 1200px;
+  }
+}
+.software-change-two{
+  position: relative;
+  top:40px
+}
+.software-change-three{
+  position: relative;
+  top:18px !important;
+  color: #0083a1 !important;
+}
+@media(max-width:1832px){
+  .contact-commoncation{
+    position: relative;
+    top:-10px  !important;
+    right:20px
+  }
+}
+@media(max-width:900px) {
+  .tel-icon {
+    @include relative-position;
+    right: -10px;
+  }
+.card-eight{
+  height: 700px !important
+}
+  .faranam-change {
+    @include relative-position;
+    top: -180px
+  }
+
+  .img-sherkat {
+    width: 500px;
+    @include height-five-hundred;
+  }
+
+
+
+  .display-change {
+    display: none
+  }
+
+  .display-change-one {
+    display: block
+  }
+
+  .software-change-one {
+    @include relative-position;
+    top: 120px
+  }
+
+  .software-change-two {
+    @include relative-position;
+    top: 230px
+  }
+
+  .software-change-three {
+    @include relative-position;
+    top: 230px
+  }
+}
+
+.software-change-three{
+  position: relative;
+  top:18px
+}
+@media(max-width:822px) {
+  .change-dropdown {
+    @include relative-position;
+    right: -150px;
+  }
+
+  .change-content {
+    @include relative-position;
+    right: 10px;
+  }
+}
+.software-change-one{
+  color:#0083a1 !important;
+  top:30px !important
+}
+@media(max-width:786px) {
+  .change-content {
+    @include relative-position;
+    right: -40px;
+  }
+
+}
+
+@media(max-width:1230px) {
+  .form-all-contact {
+    @include relative-position;
+    right: -30px
+  }
+}
+
+@media(max-width:752px) {
+
+
+  .about-fanam {
+    @include relative-position;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+.tel-img{
+  position: relative ;
+  right:313px
+}
+.adress-logo-all{
+  position: relative ;
+  right:100px;
+  font-size: 14px;
+}
+.email-logo-all{
+  position: relative !important;
+  right:265px !important
+}
+
+@media(max-width:1715px) {
+
+
+  .faranam-change {
+    @include relative-position;
+    top: -460px
+  }
+
+  .faranam-change {
+    @include relative-position;
+    top: -480px
+  }
+
+
+}
+.lorem-matn{
+  font-size: 14px;
+  position: relative !important;
+  right:100px !important
+}
+@media(max-width:1629px) {
+
+  .faranam-change {
+    @include relative-position;
+    top: -460px
+  }
+}
+.send-form{
+  position: relative !important;
+  top:-90px !important;
+  right:410px !important
+}
+@media(max-width:767px) {
+.height-change-responsive{
+  height: 200px;
+}
+
+.list-style-five{
+  position: relative !important;
+  top:200px !important;
+  
+ 
+}
+
+
+  .keen-slider {
+    @include relative-position;
+    top: 300px
+  }
+
+  .artboard-threeteen {
+    @include relative-position;
+    right: 100px
+  }
+
+  .card-eight {
+    @include relative-position;
+    right: -20px;
+  }
+
+  .card-seven {
+    position: relative !important;
+    margin-right: -15rem !important;
+    top:-55px !important;
+    height: 15rem !important;
+    width:32rem !important;
+  }
+
+
+
+  .sidebar-all {
+    @include relative-position;
+    top: -5px
+  }
+
+  .main-header {
+    height: 229px;
+  }
+
+
+  
+
+  .button-more {
+    @include one-hundred-twenty;
+  }
+
+  .lorem-matn {
+    display: none;
+  }
+
+  .lorem-matn-one {
+    display: block;
+  }
+
+
+  .card-seven {
+    @include relative-position;
+    right: 20px
+  }
+
+  .blog-two {
+    display: block;
+    @include relative-position;
+    right: 60px;
+  }
+
+ 
+  
+ 
+  .commoncation-line {
+    @include relative-position;
+    top: -280px;
+    right: -200px;
+  }
+
+  .lorem-matn-one {
+    display: block;
+    color: $white;
+  }
+
+
+
+  .fanam-commoncation {
+    height: 850px;
+  }
+
+  .item-all {
+    height: 1000px;
+  }
+
+ 
+#send-form-all{
+  position: relative !important;
+  right: 200px !important;
+  top: 130px !important
+}
+  .height-responsive {
+    @include height-two-hundred;
+  }
+
+  .change-mohtava-fanam {
+    @include relative-position;
+    right: 150px;
+  }
+
+  .btn-style-one {
+    @include relative-position;
+    right: -250px
+  }
+
+
+  .item-all {
+    height: 1350px;
+  }
+
+  .change-dropdown {
+    @include relative-position;
+    right: 140px;
+  }
+
+  .change-content {
+    @include relative-position;
+    right: 160px;
+  }
+
+  .form-all-contact {
+    @include relative-position;
+    right: 100px;
+    top:100px
+  }
+
+}
+.change-mohtava-fanam{
+  font-size: 16px;
+}
+@media(max-width:950px){
+  .change-header-info{
+    display: block !important
+  }
+  .keen-slider{
+    position: relative ;
+    top:80px 
+  }
+  .navbar-change-one{
+    position: relative !important;
+    margin-top:90px !important
+  }
+  .image-fanam{
+    position: relative !important;
+    right:150px !important
+  }
+}
+@media(max-width:767px) {
+  .change-mohtava-about {
+    @include relative-position;
+    right: 100px
+  }
+ 
+ 
+  .keen-slider {
+    @include relative-position;
+    top: 160px 
+  }
+
+  .artboard-threeteen {
+    @include relative-position;
+    right: 100px
+  }
+
+  .card-eight {
+    @include relative-position;
+    right: -20px;
+  }
+
+  .card-seven {
+    @include relative-position;
+    right: 0px !important;
+  }
+
+  .about-fanam {
+    @include relative-position;
+    right: -70px
+  }
+
+  .sidebar-all {
+    @include relative-position;
+    top: -5px
+  }
+
+  .main-header {
+    height: 229px;
+  }
+
+
+ 
+  
+
+
+  .button-more {
+    @include one-hundred-twenty;
+  }
+
+  .lorem-matn {
+    display: none;
+  }
+
+  .lorem-matn-one {
+    display: block;
+  }
+
+
+
+  .card-seven {
+    @include relative-position;
+    right: 20px
+  }
+
+  .blog-two {
+    display: block;
+    @include relative-position;
+    right: 60px;
+  }
+#card-six-all{
+  width: 32rem !important;position: relative;
+  right:10px !important
+}
+  .card-six {
+    @include relative-position;
+    right: 10px !important;
+    top:-50px !important;
+    height: 300px !important;
+   width: 200px !important
+  }
+
+  .contact-form-all {
+    @include relative-position;
+    top: -340px;
+    right: -250px;
+  }
+
+  .commoncation-line {
+    @include relative-position;
+    top: -280px;
+    right: -200px;
+  }
+
+  .lorem-matn-one {
+    display: block;
+    color: $white;
+  }
+
+ 
+
+  .fanam-commoncation {
+    height: 850px;
+  }
+
+  .item-all {
+    height: 1000px;
+  }
+
+
+
+  .height-responsive {
+    @include height-two-hundred;
+  }
+
+  .change-mohtava-fanam {
+    @include relative-position;
+    right: 150px;
+  }
+
+  .btn-style-one {
+    @include relative-position;
+    right: -250px
+  }
+
+
+  .item-all {
+    height: 1350px;
+  }
+
+  .change-dropdown {
+    @include relative-position;
+    right: 140px;
+  }
+
+  .change-content {
+    @include relative-position;
+    right: 160px;
+  }
+
+  .form-all-contact {
+    @include relative-position;
+    right: 100px
+  }
+
+  .height-services {
+    height: 1600px !important;
+  }
+}
+
+
+
+
+@media(max-width:1715px) {
+
+
+  .faranam-change {
+    @include relative-position;
+    top: -460px
+  }
+
+  .faranam-change {
+    @include relative-position;
+    top: -480px
+  }
+
+ 
+}
+.about-column{
+  position: relative;
+  top:150px
+}
+@media(max-width:1629px) {
+
+  .faranam-change {
+    @include relative-position;
+    top: -460px
+  }
+}
+.btn-style-one{
+  position: relative;
+  right:-130px;
+  color: #0083a1 !important;
+}
+.btn-style-one:hover{
+  color: #fff !important;
+}
+@media(max-width:1600px) {
+  .btn-style-one {
+    position: relative !important;
+    top: -40px !important;
+  }
+
+ 
+  .btn-style-one {
+    @include relative-position;
+    top: 120px
+  }
+
+
+  .faranam-change {
+    @include relative-position;
+    top: -420px
+  }
+
+  .change-blog-one {
+    display: none;
+  }
+
+
+  .about-banner {
+    @include relative-position;
+    right: 200px
+  }
+
+ 
+
+  .about-column {
+    @include relative-position;
+    top: 190px
+  }
+
+
+
+  .button-more {
+    @include relative-position;
+    top: -40px
+  }
+
+
+}
+
+@media(max-width:1553px) {
+ 
+
+  .button-more {
+    @include relative-position;
+    top: -20px
+  }
+  
+}
+
+@media(max-width:1538px) {
+  .btn-style-one {
+    @include relative-position;
+    top: 30px
+  }
+
+  .faranam-change {
+    @include relative-position;
+    top: -450px
+  }
+
+  .about-fanam {
+    @include relative-position;
+    top: 20px
+  }
+
+  .farda-about {
+    @include relative-position;
+    top: 30px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    top: 30px
+  }
+
+  .button-more {
+    @include relative-position;
+    top: 40px;
+  }
+}
+
+
+
+@media(max-width:1464px) {
+ 
+
+  .about-fanam {
+    @include relative-position;
+    top: 40px;
+  }
+
+  .farda-about {
+    @include relative-position;
+    top: 40px;
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    top: 40px;
+  }
+}
+
+
+
+
+
+@media(max-width:1360px) {
+  .about-fanam {
+    @include relative-position;
+    top: -10px
+  }
+
+  .farda-about {
+    @include relative-position;
+    top: 10px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    top: 30px
+  }
+
+  .button-more {
+    @include relative-position;
+    top: 70px
+  }
+
+
+}
+
+
+
+@media(max-width:1400px) {
+  .farda-about {
+    @include relative-position;
+    left: 250px;
+  }
+
+  .faranam-change {
+    @include relative-position;
+    top: -280px
+  }
+
+  .faranam-change {
+    @include relative-position;
+    top: -340px;
+  }
+
+  .farda-about {
+    @include relative-position;
+    top: -10px;
+  }
+  .contact-commoncation{
+    position: relative;
+    top:10px !important
+  }
+}
+.faranam-img{
+  height: auto !important;
+}
+@media(max-width:1200px) {
+  .faranam-img {
+    width: 1980px !important;
+    height: auto !important;
+  }
+
+  .change-responsive {
+    @include flex;
+    @include column;
+  }
+
+  .watch-fanam-one {
+    @include relative-position;
+    right: -350px
+  }
+
+  .all-fanam {
+    @include relative-position;
+    right: -100px;
+  }
+
+  .watch-fanam-one {
+    @include relative-position;
+    right: -320px;
+  }
+
+  .title-three-bank {
+    @include relative-position;
+    top: -70px
+  }
+
+  .button-more {
+    @include relative-position;
+    top: 50px
+  }
+
+  .change-blog {
+    display: none;
+  }
+
+  .welcome-section {
+    margin-top: -105px
+  }
+
+  
+  .form-all-contact {
+    @include relative-position;
+    right: 20px !important;
+    margin-right: 60px;
+
+  }
+
+  .button-more {
+    @include relative-position;
+    right: 580px;
+    top: 20px;
+    font-size: 30px;
+  }
+
+ 
+
+  .farda-about {
+    @include relative-position;
+    right: 50px !important;
+  }
+
+  .about-fanam {
+    @include relative-position;
+    right: 0;
+    top: -50px;
+    font-size: 30px;
+  }
+
+  .faranam-img {
+    height: 400px;
+    width: 1200px;
+    @include relative-position;
+  }
+
+  .change-blog-one {
+
+    display: block;
+
+    .carousel__item {
+      min-height: 200px;
+      width: 100%;
+
+      font-size: 20px;
+      border-radius: 8px;
+      @include flex;
+      @include center;
+    }
+
+    .carousel__slide {
+      @include padding-xs;
+    }
+
+    .carousel__prev,
+    .carousel__next {
+      box-sizing: content-box;
+      border: 5px solid white;
+    }
+  }
+
+  .change-responsive {
+    @include flex;
+    @include column;
+  }
+
+  .faranam-img {
+    @include width-seven-hundred;
+    height: 1200px;
+
+  }
+
+  .blog-two {
+    display: block;
+    @include relative-position;
+    right: 400px;
+  }
+
+  .img-sherkat {
+    @include width-seven-hundred;
+    @include height-five-hundred;
+  }
+
+  .about-change-all {
+    @include relative-position;
+    top: -1100px
+  }
+
+  .about-banner {
+    @include relative-position;
+    right: 0px;
+  }
+
+  .about-fanam {
+    @include relative-position;
+    right: 10px;
+    top: -100px
+  }
+
+  .button-more {
+    @include relative-position;
+    right: 50px;
+  }
+
+  .farda-about {
+    @include margin-right-manfi;
+   
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+  }
+
+
+
+  .blog-two {
+    @include relative-position;
+    top: 50px
+  }
+
+  .send-form {
+    @include relative-position;
+    right: 920px;
+  }
+
+
+
+}
+@media(max-width:922px){
+  #rectangle-services-all{
+    position: relative !important;
+    right:-50px !important
+  }
+}
+@media(max-width:800px) {
+  .faranam-change {
+    @include relative-position;
+    top: -160px
+  }
+
+  .change-responsive {
+    @include flex;
+    @include column;
+  }
+
+  
+
+  .change-responsive {
+    @include flex;
+    @include column;
+  }
+}
+
+@media(max-width:640px) {
+  .faranam-change {
+    @include relative-position;
+    top: -100px
+  }
+
+  .contact-commoncation {
+    @include relative-position;
+    right: -70px
+  }
+
+  .list-style-five {
+    @include relative-position;
+    margin-right: -70px
+  }
+
+  .contact-form-all {
+    position: relative !important;
+    right: -250px !important
+  }
+
+  .send-form-button {
+    position: relative !important;
+    right: -270px !important
+  }
+}
+
+@media (max-width: 768px) {
+  .content-change {
+    @include relative-position;
+    right: 0px;
+  }
+
+  .faranam-change {
+    @include relative-position;
+    top: -140px
+  }
+
+  .font-change {
+    @include font-sm;
+  }
+
+  .img-sherkat {
+    width: 200px;
+    @include height-five-hundred;
+  }
+}
+
+@media (max-width: 412px) {
+  .content-change {
+    @include relative-position;
+    right: 0px;
+  }
+}
+
+@media(max-width:944px) {
+
+  .change-mohtava-about {
+    margin-right: -120px;
+
+  }
+
+  .farda-about {
+    margin-right: -120px;
+  }
+}
+
+@media(max-width:1199px) {
+  .about-column{
+    position: relative !important;
+    top:260px !important
+  }
+  .farda-about {
+    font-size: 28px;
+  }
+.search-change{
+  position: relative;
+  right:30px
+}
+  .carousel-two {
+    display: block !important;
+  }
+}
+
+@media(max-width:1161px) {
+  .about-change-all {
+    @include relative-position;
+    top: -1030px
+  }
+
+}
+
+@media(max-width:1074px) {
+  .about-change-all {
+    @include relative-position;
+    top: -950px
+  }
+}
+
+
+
+
+@media(max-width:965px) {
+  .about-change-all {
+    @include relative-position;
+    top: -850px
+  }
+}
+
+
+@media(max-width:915px) {
+  .farda-about {
+    @include relative-position;
+    right: -180px
+  }
+}
+
+@media(max-width:860px) {
+  .about-fanam {
+    @include relative-position;
+    margin-right: 20px
+  }
+
+  .farda-about {
+    font-size: 14px;
+    margin-right: -120px;
+  }
+
+  .change-mohtava-about {
+    font-size: 14px;
+    margin-right: -120px;
+  }
+}
+
+@media(max-width:879px) {
+  .about-change-all {
+    @include relative-position;
+    top: -780px
+  }
+}
+
+@media(max-width:841px) {
+  .about-change-all {
+    @include relative-position;
+    top: -750px
+  }
+
+  .about-fanam {
+    @include relative-position;
+    right: -50px
+  }
+
+  .change-mohtava-about {
+    margin-right: -70px
+  }
+
+  .button-more {
+    @include sixty;
+  }
+
+}
+@media(max-width:794px) {
+  .about-change-all {
+    @include relative-position;
+    top: -700px
+  }
+}
+
+@media(max-width:719px) {
+  .about-change-all {
+    @include relative-position;
+    top: -650px
+  }
+
+  .about-fanam {
+    position: relative;
+    right: -60px;
+  }
+
+  .farda-about {
+    @include one-hundred;
+  }
+
+  .change-mohtava-about {
+    @include eighty;
+
+  }
+
+  .button-more {
+    @include one-hundred;
+  }
+}
+
+@media(max-width:662px) {
+  .about-change-all {
+    @include relative-position;
+    top: -650px
+  }
+
+  .about-fanam {
+    @include relative-position;
+    right: -30px;
+  }
+
+  .farda-about {
+    margin-right: -65px;
+  }
+
+  .change-mohtava-about {
+    margin-right: -40px;
+
+  }
+
+  .button-more {
+    @include eighty;
+  }
+}
+
+@media(max-width:670px) {
+  .about-change-all {
+    @include relative-position;
+    top: -600px
+  }
+}
+
+@media(max-width:610px) {
+  .about-change-all {
+    @include relative-position;
+    top: -550px
+  }
+}
+
+
+
+
+.button-more{
+  position: relative !important;
+  top:20px !important
+}
+
+@media(max-width:1800px) {
+  .contact-commoncation{
+    position: relative !important;
+    top:-140px !important;
+    right:60px !important
+  }
+
+  .fanam-commoncation{
+  height: 570px !important
+  }
+ 
+
+  .faranam-change {
+    @include relative-position;
+    top: -500px;
+  }
+
+
+
+  .about-banner {
+    @include relative-position;
+    right: 250px
+  }
+
+.lorem-matn{
+  position: relative;
+  top:-25px !important;
+  right:130px !important
+}
+.list-style-five{
+  position: relative !important;
+  top:-100px !important
+}
+.form-all-contact{
+  position: relative;
+  top:-80px
+}
+.send-form-button{
+  position: relative;
+  top:-10px 
+}
+  .button-more {
+    @include relative-position;
+    top: 20px
+  }
+
+  .fanam-commoncation {
+    @include relative-position;
+    top: -40px;
+    height: 550px;
+  }
+
+  .commoncation-line {
+    @include relative-position;
+    top: 10px
+  }
+
+  .form-all-contact {
+    @include relative-position;
+    right: 70px
+  }
+
+  .send-form {
+    @include relative-position;
+    right: 430px
+  }
+}
+
+
+
+
+@media(max-width:1414px) {
+
+  .about-fanam {
+    @include relative-position;
+    top: 60px
+  }
+
+  .farda-about {
+    @include relative-position;
+    top: 60px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    top: 60px
+  }
+}
+
+
+@media(max-width:1509px){
+  #contact-common{
+    position: relative !important;
+    right:140px !important
+  }
+}
+@media(max-width:1350px) {
+  .fanam-commoncation {
+    height: 550px !important;
+  }
+  #fanam-art{
+    height: 550px !important;
+  }
+}
+
+
+@media(max-width:1349px){
+ #contact-common{
+  margin-right: 10px;
+ } 
+}
+@media(max-width:1309px) {
+  .about-fanam {
+    @include relative-position;
+    top: 80px
+  }
+
+  .farda-about {
+    @include relative-position;
+    top: 80px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    top: 80px
+  }
+
+}
+@media(max-width:1259px) {
+  .about-fanam {
+    @include relative-position;
+    right: 20px;
+  }
+
+  .farda-about {
+    @include relative-position;
+    right: 20px;
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    right: 80px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+//welcome-navbar
+
+//about
+.faranam-change {
+  @include relative-position;
+  top: -450px
+}
+
+.faranam-img {
+  height: auto;
+
+}
+
+
+
+
+
+.about-fanam {
+  @include relative-position;
+  top: 20px !important;
+  color: $DarkGray;
+  right: 2px !important
+}
+
+.change-padding-blog {
+  @include relative-position;
+  top: -180px
+}
+
+.consultation {
+  @include relative-position;
+  top: -290px;
+}
+
+
+
+.farda-about {
+  @include relative-position;
+  left: -250px !important;
+  font-size: 16px;
+}
+
+.content-change {
+  top: 200px;
+  right: 40px;
+}
+
+.change-mohtava-about {
+  margin-right: -58px;
+  @include relative-position;
+  top: -20px;
+  font-size: 16px;
+  color: $DarkGray !important;
+}
+
+
+.about-banner {
+  @include relative-position;
+  top: -20px;
+  right: 300px
+}
+
+.button-more {
+  @include relative-position;
+  right: 700px;
+  top: 70px
+}
+
+.about-change-all {
+  @include relative-position;
+  top: -900px
+}
+
+
+
+.lorem-matn-one {
+  display: none;
+}
+
+
+
+.image-services-software {
+  height: 40px;
+  @include relative-position;
+  top: -5px
+}
+
+
+
+.image-services {
+  height: 40px;
+}
+
+.top-asset-21 {
+  top: 5px
+}
+
+.rectangle {
+  width: 10px;
+  height: 10px;
+  background-color: #e39717;
+  margin-top: 2px;
+}
+
+.rectangle-all {
+  width: 10px;
+  height: 10px;
+  background-color: #e39717;
+}
+
+
+
+
+
+
+
+.farda-about {
+  @include relative-position;
+  right: 2px;
+  top: -120px;
+  color:$DarkGray
+}
+
+
+
+.faranam-change {
+  @include relative-position;
+  top: -500px
+}
+
+
+
+
+
+
+.about-fanam {
+  @include relative-position;
+  right: -30px;
+  top: -40px
+}
+
+.farda-about {
+  @include relative-position;
+  top: 20px
+}
+
+
+
+.item-all {
+  @include relative-position;
+  top: -310px
+}
+
+
+@media(max-width:1320px){
+  #contact-common{
+margin-right: 30px;
+  }
+}
+@media(max-width:1350px) {
+  .fanam-commoncation {
+    height: 380px !important;
+  }
+}
+
+
+
+
+
+
+.display-change{
+  position: relative !important;
+  top:50px !important
+}
+
+@media(max-width:1259px) {
+  .about-fanam {
+    @include relative-position;
+    right: 20px;
+  }
+
+  .farda-about {
+    @include relative-position;
+    right: 20px;
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    right: 80px !important;
+  }
+}
+
+
+
+
+
+
+.rectangle-commoncation {
+  width: 10px;
+  height: 10px;
+  background-color: $dark-orange;
+  @include relative-position;
+  top: 5px;
+  left: 10px;
+}
+
+
+
+
+
+.change-settings{
+  position: relative !important;
+  top:30px !important
+}
+
+
+@media(max-width:858px) {
+  .image-fanam {
+    position: relative;
+    right: -45px;
+  }
+}
+.change-stack{
+  font-size: 16px;
+}
+.project-fanam{
+  position: relative;
+  right:-15px
+}
+@media(max-width:991px) {
+  .form-all-contact{
+    position: relative;
+    top:40px 
+  }
+  .card-seven{
+    width: 18rem;
+    position: relative;
+    right:240px !important
+  }
+  .send-form{
+    position: relative !important;
+    top:30px !important
+  }
+  .image-logo-all {
+    @include relative-position;
+    top: 280px
+  }
+
+  .client-logo {
+    height: 730px !important;
+  }
+
+  #fanam-art {
+    height: 700px !important;
+  }
+
+  .software-change-one {
+    @include relative-position;
+    margin-top: -35px
+  }
+
+  .project-fanam {
+    @include relative-position;
+    top: 20px
+  }
+
+  .send-form {
+    @include relative-position;
+    top: 300px;
+  }
+
+  .sec-title {
+    @include relative-position;
+    top: -100px
+  }
+.about-fanam{
+  position: relative !important;
+  right:-70px !important
+}
+  .readmore-change-finish {
+    @include relative-position;
+    top: -40px
+  }
+
+  .font-change-finish {
+    @include font-xs;
+  }
+
+  .font-change {
+    @include font-xs;
+  }
+
+  .software-change {
+    @include font-sm
+  }
+
+  .contact-commoncation {
+   position: relative !important;
+    top: -290px !important
+  }
+#contact-common{
+  position: relative !important;
+  top:-290px !important
+}
+  .lorem-matn {
+    position: relative;
+    top: -290px !important
+  }
+
+  .list-style-five {
+    @include relative-position;
+    top: -340px !important
+  }
+
+
+
+  .change-stack {
+    @include font-xxs;
+  }
+
+  .change-stack-front {
+    @include font-sm;
+  }
+
+  .change-content-software {
+    @include relative-position;
+    top: 40px
+  }
+
+  .change-settings {
+    font-size: 8px;
+    @include relative-position;
+    left: 15px;
+  }
+
+  .welcome-section {
+    margin-top: -160px
+  }
+
+  .readmore-change {
+    @include relative-position;
+    top: -10px
+  }
+
+  .change-stack {
+    @include relative-position;
+    top: -7px;
+  }
+
+  .font-change-three {
+    @include relative-position;
+    top: 32px
+  }
+
+  .font-change-finish {
+    @include font-xxs;
+  }
+
+  .change-settings {
+    @include relative-position;
+    top: 0px;
+    left: 8px;
+
+  }
+
+  .blog-two {
+    display: block;
+    @include relative-position;
+    right: 150px;
+  }
+
+  .commoncation-line {
+    @include relative-position;
+    top: -240px;
+  }
+
+  .contact-form-all {
+    @include relative-position;
+    top: -460px !important;
+  }
+
+
+
+ 
+  .main-header {
+    height: 160px;
+  }
+
+  .navbar-change-one {
+    display: block;
+position: relative !important;
+top:0px !important
+  }
+
+  .watch-fanam {
+    @include relative-position;
+    right: 40px
+  }
+
+  .addad-one {
+    @include relative-position;
+    right: -5px;
+  }
+
+  .addad-two {
+    @include relative-position;
+    right: -5px;
+  }
+
+  .addad-three {
+    @include relative-position;
+    right: -20px;
+  }
+
+  .farda-about {
+   margin-right: -110px;
+  }
+
+  .change-mohtava-about {
+    @include one-hundred-and-forty
+  }
+
+  .button-more {
+    @include one-hundred-and-forty
+  }
+
+  .item-all {
+    height: 900px;
+  }
+
+  .blog-two {
+    @include relative-position;
+    margin-top: 150px
+  }
+
+
+  .blog-two {
+    @include relative-position;
+    top: 50px;
+  }
+
+  .sec-title {
+    @include relative-position;
+    top: 50px
+  }
+
+  .change-mohtava-about {
+    width: 400px;
+    @include relative-position;
+    right: 40px;
+  }
+
+  .send-form-button {
+    position: relative !important;
+    top: 30px !important
+  }
+
+  .button-more {
+    @include relative-position;
+    top: 10px;
+    right: 400px
+  }
+
+  .send-form-button {
+    @include relative-position;
+    top: 300px
+  }
+
+  .swipper-change-navigation {
+    display: none;
+  }
+
+  .display-change {
+    display: none;
+  }
+
+  .display-change-one {
+    display: block;
+    top: 40px
+  }
+
+  .software-change-one {
+    @include relative-position;
+    top: 110px
+  }
+
+  .list-style-five {
+    @include relative-position;
+    top: -20px
+  }
+
+
+  .fanam-commoncation {
+    height: 720px;
+  }
+
+}
+
+
+
+@media(max-width:939px) {
+  .about-fanam {
+    @include relative-position;
+    right: -80px
+  }
+
+}
+
+@media(max-width:873px) {
+  .about-fanam {
+    @include relative-position;
+    right: -60px
+  }
+
+  .farda-about {
+    @include relative-position;
+    right: 70px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    right: 70px
+  }
+
+}
+
+
+
+@media(max-width:842px) {
+  .about-fanam {
+    @include relative-position;
+    right: -40px
+  }
+
+  .farda-about {
+    @include relative-position;
+    right: 80px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    right: 80px
+  }
+}
+
+@media(max-width:841px) {
+
+  .farda-about {
+    @include relative-position;
+    right: 40px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    right: 30px
+  }
+}
+
+@media(max-width:808px) {
+  .about-fanam {
+    @include relative-position;
+    right: -20px
+  }
+}
+
+@media(max-width:793px) {
+  .change-mohtava-about {
+    @include relative-position;
+    right: 40px
+  }
+}
+
+@media(max-width:716px) {
+  .about-fanam {
+    @include relative-position;
+    right: -60px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    right: 20px
+  }
+}
+
+
+
+@media(max-width:643px) {
+  .farda-about {
+    @include relative-position;
+    right: 50px
+  }
+}
+
+@media(max-width:662px) {
+  .about-fanam {
+    @include relative-position;
+    right: -20px
+  }
+}
+
+@media(max-width:662px) {
+  .about-fanam {
+    @include relative-position;
+    right: -20px
+  }
+}
+
+@media(max-width:627px) {
+  .about-fanam {
+    @include relative-position;
+    right: 0px
+  }
+
+  .farda-about {
+    @include relative-position;
+    right: 70px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    right: 50px;
+    width: 320px;
+  }
+}
+
+
+
+@media(max-width:805px) {
+  .about-fanam {
+    @include relative-position;
+    right: -30px
+  }
+
+  .farda-about {
+    @include relative-position;
+    right: 30px
+  }
+}
+
+
+
+@media(max-width:662px) {
+  .faranam-change {
+    @include relative-position;
+    right: -30px;
+
+    font-size: 30px;
+  }
+}
+
+
+
+@media(max-width:609px) {
+  .faranam-change {
+    @include relative-position;
+    right: -15px;
+
+    font-size: 30px;
+  }
+}
+
+
+
+.window {
+  @include relative-position;
+  left: -20px
+}
+
+.change-mohtava-about {
+  @include relative-position;
+  right: 60px;
+  top: 20px
+}
+
+@media(max-width:722px) {
+  .change-mohtava-about {
+    @include relative-position;
+    right: 20px;
+  }
+}
+
+@media(max-width:608px) {
+  .change-mohtava-about {
+    @include relative-position;
+    right: 10px;
+  }
+}
+
+.faranam {
+  @include relative-position;
+  right: 400px;
+
+}
+
+//about
+
+
+//blog
+.style {
+  gap: 30px;
+}
+
+@media screen and (max-width: 2500px) {
+  .change-blog-one {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 2200px) {
+  .change-blog-one {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .change-blog-one {
+    display: none;
+  }
+}
+
+//custom-scrollbar
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+//custom-scrollbar
+//contact
+.flaticon-draw {
+  color: #a3a29c;
+}
+
+.flaticon-favorite {
+  color: #a3a29c;
+}
+
+.flaticon-social {
+  color: #a3a29c;
+
+}
+
+.flaticon-note-1 {
+  color: #a3a29c;
+
+}
+
+.btn-contact {
+  @include relative-position;
+  padding: 11px 40px;
+  line-height: 24px;
+  @include color-white;
+  text-align: center;
+  display: inline-block;
+  @include font-sm;
+  font-weight: 700;
+  background: $dark-orange;
+  border: 2px solid $dark-orange;
+}
+
+.btn-contact:hover {
+  @include color-white;
+  background: #101010;
+  border-color: #101010;
+}
+
+
+
+//contact
+
+
+//counter
+.day {
+  margin-right: 280px
+}
+
+
+
+.watch-fanam-font {
+  @include relative-position;
+  top: -7px;
+  left: 50px;
+  font-size: 18px;
+}
+
+.rectangle-change {
+  width: 10px;
+  height: 10px;
+  @include relative-position;
+  left: 60px
+}
+
+.addad {
+  margin-right: 295px;
+
+}
+
+.height-responsive {
+  @include height-two-hundred;
+}
+
+
+
+@media (max-width:966px) {
+  .font-change {
+    @include font-xs;
+  }
+}
+
+@media(max-width:988px) {
+  .sec-title {
+    @include relative-position;
+    top: -20px
+  }
+
+  .blog-two {
+    @include relative-position;
+    ;
+    top: -20px
+  }
+}
+
+@media (max-width:986px) {
+  .font-change {
+    @include font-xxs;
+    @include relative-position;
+    top: 5px
+  }
+}
+
+.background-project {
+  background-image: url('/pa.png');
+  @include relative-position;
+}
+
+.asly {
+  @include relative-position;
+  height: 205px;
+  z-index: 1;
+}
+
+.week {
+  @include relative-position;
+  right: 100px
+}
+
+.month {
+  @include relative-position;
+  right: 250px;
+}
+
+.year {
+  @include relative-position;
+  right: 400px
+}
+
+.addad-two {
+  @include relative-position;
+  left: 10px
+}
+
+.addad-one {
+  @include relative-position;
+  left: 5px
+}
+
+.addad-three {
+  @include relative-position;
+  left: 10px
+}
+
+.addad-four {
+  @include relative-position;
+  left: 20px
+}
+
+@media(max-width:909px) {
+  .watch-fanam-font {
+    @include font-xxs;
+  }
+ 
+}
+@media(max-width:990px){
+  .about-column{
+    position: relative !important;
+    top:280px !important
+  }
+}
+
+@media(max-width:1500px) {
+  .watch-fanam {
+    @include relative-position;
+    right: 120px;
+  }
+
+  .watch-fanam-one {
+    @include relative-position;
+    right: -230px;
+  }
+}
+
+
+
+@media(max-width:1012px) {
+  .watch-fanam-font {
+    font-size: 18px;
+  }
+}
+
+
+
+@media(max-width:952px) {
+  .all-fanam {
+    @include relative-position;
+    right: -140px;
+  }
+
+}
+
+@media(max-width:894px) {
+  .all-fanam {
+    @include relative-position;
+    right: -180px;
+  }
+
+}
+
+@media(max-width:929px) {
+  .watch-fanam-font {
+    font-size: 16px;
+  }
+}
+
+@media(max-width:846px) {
+  .watch-fanam-font {
+    font-size: 15px;
+  }
+}
+
+@media(max-width:804px) {
+  .watch-fanam-font {
+    @include font-ssm;
+  }
+
+}
+
+@media(max-width:807px) {
+  .farda-about {
+    font-size: 14px;
+    right: 100px
+  }
+
+  .about-fanam {
+    @include relative-position;
+    right: -20px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    right: 50px
+  }
+}
+
+.font-change {
+  @include relative-position-right;
+}
+
+
+.watch-fanam {
+  @include relative-position-right;
+}
+
+@media(max-width:722px) {
+
+  .watch-fanam-font {
+    @include font-xs;
+  }
+
+  .day-font {
+    @include position-relative-font;
+    right: -25px;
+
+
+  }
+
+  .week-font {
+    @include position-relative-font;
+    right: -100px;
+  }
+
+  .year-font {
+    @include position-relative-font;
+    right: -260px;
+  }
+
+  .month-font {
+    @include position-relative-font;
+    right: -180px;
+  }
+
+  .addad-one {
+    @include position-relative-font;
+    right: -25px;
+  }
+
+  .addad-two {
+    @include position-relative-font;
+    right: -100px;
+  }
+
+  .addad-three {
+    @include position-relative-font;
+    right: -180px;
+  }
+
+  .addad-four {
+    @include position-relative-font;
+    right: -260px;
+  }
+}
+
+@media(max-width:705px) {
+  .watch-fanam-font {
+    font-size: 11px;
+  }
+
+  .day-font {
+    right: -20px;
+    @include position-relative-font;
+
+  }
+
+  .week-font {
+    @include position-relative-font;
+    right: -100px;
+  }
+
+  .year-font {
+    @include position-relative-font;
+    right: -260px;
+  }
+
+  .month-font {
+    @include position-relative-font;
+    right: -180px;
+  }
+
+  .addad-one {
+    @include position-relative-font;
+    right: -15px;
+  }
+
+  .addad-two {
+    @include position-relative-font;
+    right: -95px;
+  }
+
+  .addad-three {
+    @include position-relative-font;
+    right: -180px;
+  }
+
+  .addad-four {
+    @include position-relative-font;
+    right: -260px;
+  }
+}
+
+@media(max-width:682px) {
+  .watch-fanam-font {
+    @include font-xs;
+  }
+
+  .day-font {
+    right: -25px;
+    @include position-relative-font;
+
+  }
+
+  .week-font {
+    @include position-relative-font;
+    right: -100px;
+  }
+
+  .year-font {
+    @include position-relative-font;
+    right: -260px;
+  }
+
+  .month-font {
+    @include position-relative-font;
+    right: -180px;
+  }
+
+  .addad-one {
+    @include position-relative-font;
+    right: -25px;
+  }
+
+  .addad-two {
+    @include position-relative-font;
+    right: -100px;
+  }
+
+  .addad-three {
+    @include position-relative-font;
+    right: -180px;
+  }
+
+  .addad-four {
+    @include position-relative-font;
+    right: -260px;
+  }
+}
+
+@media(max-width:705px) {
+  .watch-fanam-font {
+    font-size: 11px;
+  }
+
+  .day-font {
+    @include position-relative-font;
+    right: -8px;
+
+
+  }
+
+  .week-font {
+    @include position-relative-font;
+    right: -100px;
+  }
+
+  .year-font {
+    @include position-relative-font;
+    right: -260px;
+  }
+
+  .month-font {
+    @include position-relative-font;
+    right: -180px;
+  }
+
+  .addad-one {
+    @include position-relative-font;
+    right: -5px;
+  }
+
+  .addad-two {
+    @include position-relative-font;
+    right: -95px;
+  }
+
+  .addad-three {
+    @include position-relative-font;
+    right: -180px;
+  }
+
+  .addad-four {
+    @include position-relative-font;
+    right: -260px;
+  }
+}
+
+@media(max-width:638px) {
+  .watch-fanam-font {
+    @include font-xxs;
+  }
+
+  .day-font {
+    @include position-relative-font;
+    right: 10px;
+
+
+  }
+
+  .week-font {
+    @include position-relative-font;
+    right: -100px;
+  }
+
+  .year-font {
+    @include position-relative-font;
+    right: -260px;
+  }
+
+  .month-font {
+    @include position-relative-font;
+    right: -180px;
+  }
+
+  .addad-one {
+    @include position-relative-font;
+    right: 15px;
+  }
+
+  .addad-two {
+    @include position-relative-font;
+    right: -95px;
+  }
+
+  .addad-three {
+    @include position-relative-font;
+    right: -180px;
+  }
+
+  .addad-four {
+    @include position-relative-font;
+    right: -260px;
+  }
+}
+.form-name:focus{
+  background-color: #a6d4de !important;
+}
+ .form-name:hover{
+  border:1px solid  #fff !important;
+ }
+
+@media(max-width:1157px){
+  .form-all-contact{
+    width:200px !important
+  }
+  .navbar-change {
+    display: none;
+  }
+  .navbar-change-one{
+    display: block;
+    position: relative;
+    top:80px
+  }
+
+}
+.form-name{
+  background-color: $light-blue-input !important;
+  border:1px solid $light-blue-input !important;
+  position: relative;
+  top:10px
+}
+
+.logo-all-info{
+  position: relative;
+  right:-64px !important
+}
+@media(max-width:1199px) {
+  .swipper-change-navigation {
+    display: none;
+  }
+
+  .button-more {
+    position: relative !important;
+  right: 600px !important;
+  }
+
+  .watch-fanam-one {
+    @include relative-position;
+    right: -220px
+  }
+
+}
+.change-stack{
+  position: relative;
+  top:20px
+}
+@media(max-width:1108px) {
+  .watch-fanam-one {
+    @include relative-position;
+    right: -250px
+  }
+}
+.change-stack-front{
+  position: relative;
+  top:60px !important
+}
+
+@media(max-width:1053px) {
+  .watch-fanam-one {
+    @include relative-position;
+    right: -280px
+  }
+}
+.change-content-software{
+  position: relative;
+  top:20px !important
+}
+
+@media(max-width:1021px) {
+  .watch-fanam-one {
+    @include relative-position;
+    right: -290px
+  }
+}
+
+//counter
+.change-stack-front{
+  position: relative;
+  top:20px !important
+}
+//project
+
+.image {
+  grid-template-columns: repeat(1fr, 1fr, 1fr);
+  @include cursor-mouse;
+  margin: 5px;
+  display: grid;
+
+}
+
+.recent-project {
+  @include relative-position;
+  top: -5px;
+  font-size: 16px;
+ 
+  color:$DarkGray
+}
+
+.rectangle-asly {
+  @include rectangle-asly;
+}
+
+.box-content-padding {
+  padding: 20px
+}
+
+
+.change-content-software{
+  position: relative;
+  top:45px !important
+}
+@media screen and (max-width: 600px) {
+  .change-responsive {
+    @include flex;
+    @include column;
+  }
+}
+
+.nav-tabs {
+  border: unset;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-link.active {
+  border: 1px solid red;
+  border-radius: 50%;
+  @include cursor-mouse;
+}
+
+.nav-link {
+  background: unset;
+}
+
+.nav-tabs:hover .nav-item.show:hover .nav-link:hover,
+.nav-link.active:hover {
+  background-color: $dark-orange;
+  color: $white;
+  @include padding-xs;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border: 1px solid #f2f2f2;
+}
+
+.title-matn {
+  margin-right: 10px;
+  color: $white;
+  font-weight: light;
+}
+
+.title-one {
+  font-weight: 500;
+  direction: rtl;
+  text-align: justify;
+  font-size: 16px;
+}
+
+.title-two {
+  font-weight: 200;
+  @include flex;
+  @include center;
+  width: 100%;
+  @include height-two-hundred;
+  text-align: center;
+
+
+}
+
+.title-three {
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.title-three-bank {
+  text-align: left;
+font-size: 16px;
+}
+
+.title-one {
+  text-align: center;
+}
+
+.swipper-change-navigation {
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    color: #eee;
+  }
+}
+
+//project
+
+//services
+.card-four {
+  @include relative-position;
+  right: 380px;
+  bottom: 280px;
+
+
+}
+
+.change-mohtava-about {
+  @include relative-position;
+  top: 30px
+}
+
+.time-box{
+  font-size: 16px
+}
+
+.display-change {
+  @include relative-position;
+  top: 40px
+}
+
+.change-stack-front {
+  @include relative-position;
+  top: 35px !important;
+  font-size: 16px
+}
+
+.change-content-software {
+  @include relative-position;
+  top: 45px;
+  font-size: 16px
+}
+
+.software-change-one {
+  @include relative-position;
+  top: 70px
+}
+
+.button-more-frontend {
+  @include relative-position;
+  top: 14px
+}
+
+
+
+.our-services {
+  background-color: $LightGray ;
+  height: 43rem;
+  box-shadow: $blodDark;
+}
+
+.services-you {
+  @include relative-position;
+  font-size: 16px;
+  width: 95px;
+  bottom: 10px;
+  right: 26px;
+}
+.rectangle-services{
+  position: relative;
+  top:-20px;
+  right:-2px !important
+}
+.services-you-all {
+  @include relative-position;
+  right:3px !important;
+  position: relative;
+  top:-55px;
+  color:$DarkGray !important;
+}
+
+.font-change-three {
+  @include relative-position;
+  top: 45px
+}
+
+.readmore-change-font {
+  font-size: 16px;
+  
+}
+
+.font-change-finish {
+  @include relative-position;
+  top: -10px;
+  font-size: 16px;
+}
+
+.font-change {
+  margin-top: 70px;
+  width: 280px;
+  margin-right: 30px;
+}
+
+.card-eight {
+  height: 34rem !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+
+
+.card-eight:hover {
+  box-shadow: none;
+  border: 1px solid $light-blue;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+
+}
+
+.card-five {
+  width: 51.2rem;
+  height: 15.2rem;
+  position: relative;
+  top: 280px;
+  @include relative-position;
+  right: -400px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.card-five:hover {
+  box-shadow: none;
+  border: 1px solid $light-blue;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+
+}
+
+.card-six {
+  width:25rem !important;
+  @include relative-position;
+  right: 430px !important;
+  top:-295px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.card-six:hover {
+  box-shadow: none;
+  border: 1px solid $light-blue;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+
+}
+
+.card-seven {
+  width: 25.8rem;
+  @include relative-position;
+  right: 400px;
+  top:-295px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 18.5rem !important;
+}
+
+.card-seven:hover {
+  box-shadow: none;
+  border: 1px solid $light-blue;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+
+}
+
+.card-six {
+  @include relative-position;
+  right:-5px ;
+  height: 18.5rem
+}
+
+.card-seven {
+  height: 290px;
+}
+
+.display-change {
+  display: block;
+  font-size: 16px;
+}
+
+.display-change-one {
+  display: none
+}
+
+.readmore-change-finish {
+  @include relative-position;
+  top: 2px;
+  
+
+}
+@media(max-width:1301px){
+  .navbar-fanam{
+    width: 73rem;
+  }
+  .logo-all-info{
+    position: relative !important; 
+    right:-100px !important
+  }
+  .search-change{
+    position: relative;
+    right:170px
+  }
+  .change-content{
+    position: relative !important;
+    right:35px !important
+  }
+}
+@media (max-width: 1199px) {
+  .navbar-fanam{
+    width: 65rem;
+  }
+  .search-change{
+    position: relative;
+    right:40px !important
+  }
+  .logo-all-info{
+    position: relative;
+    right:-10px !important
+  }
+  .our-services {
+    height: 45rem;
+  }
+
+  .readmore-change-font {
+    @include relative-position;
+    top: 10px 
+  }
+
+  .software-change-one {
+    @include relative-position;
+    top: 60px
+  }
+
+  .card-five {
+    @include font-xs;
+    @include relative-position;
+    right: -340px;
+    top: 160px !important
+  }
+
+  .readmore-change-finish {
+    @include relative-position;
+    top: -10px
+  }
+
+  .readmore-change {
+    @include relative-position;
+    top: 50px;
+  }
+
+  .font-change {
+    display: none;
+  }
+
+  .font-change-one {
+    display: block;
+    @include relative-position;
+    @include font-sm;
+    top: 20px
+  }
+
+  .card-four {
+
+    @include relative-position;
+    right: 320px;
+    bottom: 160px;
+    height: 300px;
+  }
+
+  .card-seven {
+    height: 330px;
+    right: 320px;
+    top:-330px
+  }
+
+  .card-five {
+    width: 36.7rem;
+
+    @include relative-position;
+    left: 20px;
+    top: -80px;
+
+  }
+
+  .card-six {
+    height: 330px;
+    width:18.3rem !important;
+    top:-330px;
+    position: relative !important;
+    right:305px !important
+  }
+
+  .card-eight {
+    height: 580px;
+  }
+}
+
+.readmore-change {
+  @include relative-position;
+  top: 60px
+}
+.change-settings{
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+
+  .card-seven {
+    height: 450px;
+    top:-450px
+  }
+  .card-four {
+    @include relative-position;
+    right: 240px;
+    top: -90px;
+
+  }
+
+  .our-services {
+    height: 960px;
+  }
+
+  .software-change {
+    @include font-xs;
+  }
+
+  .font-change {
+    @include font-ssm;
+
+  }
+
+  .font-change-one {
+    @include font-ssm;
+  }
+
+  .readmore-change {
+    @include flex;
+    @include center;
+  }
+
+  .font-change {
+    @include font-xs;
+  }
+
+
+
+  .card-six {
+    height: 450px;
+    top:-450px;
+    position: relative;
+  }
+
+}
+@media(max-width:850px){
+  #rectangle-services-all{
+    position: relative;
+    right:-60px !important
+  }
+}
+.change-settings {
+  @include relative-position;
+  top: 12px
+}
+
+
+@media (max-width: 700px) {
+  .card-four {
+    @include relative-position;
+    right: 0px;
+    top: 10px;
+  }
+
+
+   .card-six{
+    position: relative !important;
+    margin-right:20px !important;
+    top:-85px !important
+   }
+  .card-eight {
+    @include relative-position;
+    right: 0px
+  }
+
+
+}
+
+.card-two {
+  @include relative-position;
+  left: 20px;
+}
+
+.card-three {
+  @include relative-position;
+  left: 30px;
+  width: 100px !important;
+}
+
+@media(max-width:670px) {
+  .card-five {
+    @include relative-position;
+    right: 0px;
+  }
+}
+
+
+
+@media(max-width:700px) {
+
+  .card-seven {
+    position: relative !important;
+    right: 260px !important;
+    top:-85px !important
+  }
+
+  #card-ten {
+    position: relative !important;
+    right: 0px !important;
+    top: -40px !important
+  }
+}
+
+@media(max-width:540px) {
+  .card-eight {
+    height: 250px;
+    @include relative-position;
+    right: -5px
+  }
+
+
+  .card-six {
+    height: 250px;
+    @include relative-position;
+    right: 24px
+  }
+
+  .card-five {
+    @include relative-position;
+    right: -5px
+  }
+}
+
+@media(max-width:412px) {
+  .card-eight {
+    height: 300px;
+    @include relative-position;
+    right: -5px
+  }
+
+  .card-seven {
+    height: 300px;
+    @include relative-position;
+    right: 15px;
+
+  }
+
+  .card-six {
+    height: 300px;
+    @include relative-position;
+    right: 24px;
+
+  }
+
+  .card-five {
+    @include relative-position;
+    right: -5px;
+    height: 300px;
+    width: 24rem
+  }
+}
+
+@media(max-width:360px) {
+  .card-five {
+
+    width: 21rem
+  }
+}
+
+
+
+
+//services
+
+
+//slider
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  width: 1920px;
+  height: 700px;
+
+}
+
+.number-slide1 {
+  background: unset;
+
+}
+
+.number-slide2 {
+  background: unset;
+
+}
+
+.number-slide3 {
+  background: unset;
+
+}
+
+.change {
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 60px;
+    padding: 30px;
+  }
+
+  .swiper-button-next:hover {
+    background-color: $dark-orange ;
+  }
+
+  .swiper-button-prev:hover {
+    background-color: $dark-orange ;
+  }
+
+}
+
+
+
+//slider
+
+
+//welcome-home
+
+.service-block-nine {
+  @include relative-position;
+  margin-bottom: 40px;
+}
+
+.service-block-nine .inner-box {
+  @include relative-position;
+  overflow: hidden;
+}
+
+.service-block-nine .inner-box .image-box {
+  @include relative-position;
+
+}
+
+.service-block-nine .inner-box .image-box img {
+  @include relative-position;
+  width: 100%;
+  display: block;
+}
+
+.service-block-nine .inner-box .image-box .caption {
+  padding: 30px;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  padding: 0 25px;
+  height: 20px;
+  color: $white;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(18, 29, 37, 0.9);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.8s ease;
+
+}
+
+.service-block-nine .inner-box .image-box:hover .caption {
+  height: 100%;
+}
+
+.service-block-nine .inner-box i {
+  color: $dark-orange;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: normal;
+  @include relative-position;
+  top: 2px;
+  vertical-align: middle;
+}
+
+.service-block-nine .inner-box .image-box .overlay-box {
+  position: absolute;
+  right: 0px;
+  bottom: -75%;
+  padding: 0 25px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(18, 29, 37, 0.9);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.8s ease;
+}
+
+.service-block-nine .inner-box .image-box .overlay-box .overlay-content {
+  position: absolute;
+  right: 25px;
+  left: 25px;
+  bottom: 50%;
+  -webkit-transform: translateY(-75%);
+  -moz-transform: translateY(-75%);
+  -ms-transform: translateY(-75%);
+  -o-transform: translateY(-75%);
+  transform: translateY(-75%);
+}
+
+.service-block-nine .inner-box .image-box .overlay-box h3 {
+  @include relative-position;
+  font-size: 18px;
+  color: $white;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.service-block-nine .inner-box .image-box .overlay-box .text {
+  @include relative-position;
+  font-size: 16px;
+  color: $white;
+  margin-bottom: 15px;
+}
+
+.service-block-five .inner-box .image-box .overlay-box .read-more {
+  @include relative-position;
+  color: $dark-orange;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.service-block-five .inner-box .image-box .overlay-box .read-more {
+  @include relative-position;
+  color: $dark-orange;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.caption .caption-desc {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  @include flex;
+  @include center;
+  @include column;
+  width: 100%;
+
+}
+
+.service-block-five .inner-box .image-box:hover .caption-desc {
+  visibility: visible;
+  opacity: 1;
+}
+
+.change-icon {
+  @include relative-position;
+  top: -20px
+}
+
+.border-change {
+  border-radius: 5px;
+}
+
+.lorem-change {
+  margin-top: -5px
+}
+
+.border-change-icon {
+  border-radius: 25px
+}
+
+
+//welcomehome
+
+//projectone
+
+.image {
+  width: calc(20% - 10px);
+  @include cursor-mouse;
+  margin: 5px;
+  @include flex;
+}
+
+.change-responsive {
+  @include flex;
+}
+
+@media screen and (max-width: 600px) {
+  .change-responsive {
+    @include flex;
+    @include column;
+  }
+}
+
+//projectone
+
+
+
+
+//carousel-two
+.carousel-two {
+  display: none;
+}
+
+
+//carousel-two
+//blog-two
+.blog-two {
+  display: none;
+}
+input,
+input::placeholder {
+   font-size: 16px;
+}
+@media(max-width:1199px) {
+  .blog-two {
+    display: block;
+    @include relative-position;
+    right: 280px;
+  }
+}
+
+
+//blog-
+//commoncaton
+.commoncation-line {
+  @include relative-position;
+  top: 90px
+}
+
+.lorem-matn {
+  @include relative-position;
+  right: 90px;top:80px
+}
+
+.send-form {
+  @include relative-position;
+  right: 400px;
+  top: -15px;
+}
+
+.send-form-button {
+  background-color: #f5f5f5;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.send-form-button:hover {
+  background-color: $dark-orange;
+  cursor: pointer;
+  color: $white;
+
+}
+.btn-style-one{
+  font-size: 16px;
+}
+.btn-style-one:hover {
+  background-color: $dark-orange;
+  cursor: pointer;
+  color: $white;
+}
+
+
+
+.list-style-five {
+  @include relative-position;
+  right: 395px !important;
+  top:-10px
+}
+
+.contact-form-all {
+  @include relative-position;
+  top: 70px
+}
+
+.fanam-commoncation {
+  height: auto;
+  margin-top: -200px
+}
+
+.consultation {
+  @include relative-position;
+  top: -600px
+}
+
+
+.contact-commoncation{
+  position: relative;
+  top:-30px;
+  right:12px 
+}
+.font-size-change{
+  color:$DarkGray !important;
+}
+@media(max-width:1199px) {
+  .contact-commoncation {
+  position: relative !important;
+    top: -40px !important ;
+  
+  }
+  .form-all-contact{
+    width: 440px !important;
+    position: relative;
+    right: 60px !important
+  }
+
+ 
+
+
+
+  .send-form-button {
+    @include relative-position;
+    top: -20px;
+    right: -150px
+  }
+
+  .fanam-commoncation {
+    height: 420px !important;
+  }
+
+  .font-size-change {
+    font-size: 14px;
+   
+  }
+
+  .farda-about {
+    font-size: 14px;
+  }
+
+  .commoncation-line {
+    @include relative-position;
+    right: 25px;
+  }
+
+  .button-more {
+    @include relative-position;
+    top: 120px;
+  }
+
+  .farda-about {
+    @include relative-position;
+    right: 40px;
+  }
+}
+.display-change{
+  position: relative !important;
+  top:105px !important
+}
+.tel-all{
+  position: relative !important;
+  right:40px !important;
+  top:40px !important
+}
+.tel-two{
+  position: relative !important;
+  top:-10px !important
+}
+.email-all{
+  position: relative !important;
+  top:50px !important;
+  right:10px !important
+}
+@media(max-width:987px) {
+  .display-change {
+    display: none;
+  }
+
+  .display-change-one {
+    display: block;
+  }
+
+ 
+
+  .software-change-one {
+    @include relative-position;
+    top: 100px
+  }
+
+  .readmore-change-font {
+    @include relative-position;
+    top: -15px
+  }
+
+  .software-change-two {
+    @include relative-position;
+    top: 0px
+  }
+
+  .software-change-three {
+    @include relative-position;
+    top: -5px
+  }
+
+ 
+
+  .about-fanam {
+    @include relative-position;
+    right: -60px
+  }
+
+  .farda-about {
+    @include relative-position;
+    margin-right: -110px
+  }
+}
+
+@media(max-width:982px) {
+  .client-logo {
+    height: 500px !important;
+  }
+
+  .change-padding-blog {
+    @include relative-position;
+    top: 70px
+  }
+
+  div.item-all {
+
+    width: 1000px;
+    height: 950px;
+
+
+  }
+
+  .image-logo-all {
+    @include relative-position;
+    top: 45px
+  }
+
+  .lorem-matn {
+    @include relative-position;
+    right: -5px
+  }
+
+ 
+}
+
+@media(max-width:1538px) {
+
+  .button-more {
+    @include relative-position;
+    top: 80px
+  }
+
+
+}
+
+
+
+
+@media(max-width:1350px) {
+  .contact-form-all {
+    @include relative-position;
+    right: -50px
+  }
+
+}
+
+.list-style-five{
+  position: relative;
+  right:410px
+}
+
+@media(max-width:869px) {
+
+
+  .change-mohtava-about {
+    @include relative-position;
+    top: 20px
+  }
+
+  .farda-about {
+    @include relative-position;
+    margin-right: -110px;
+    top: 15px !important
+  }
+
+  .about-fanam {
+    @include relative-position;
+    top: 35px !important
+  }
+}
+
+@media(max-width:900px) {
+  .card-five {
+    position: relative;
+    top: 90px !important;
+    width: 37rem !important;
+    right: -260px !important
+  }
+
+  .commoncation-line {
+    @include relative-position;
+    right: -100px;
+  }
+
+  .contact-form-all {
+    @include relative-position;
+    right: -150px;
+  }
+}
+.image-all {
+  display: flex;
+  gap:140px;
+  flex-wrap: wrap;
+}
+.image-button{
+  position: relative;
+  right:15px
+}
+@media(max-width:811px) {
+  .farda-about {
+    @include relative-position;
+    margin-right: -60px
+  }
+
+  .change-mohtava-about {
+    @include relative-position;
+    margin-right: -90px
+  }
+
+  .about-fanam {
+    @include relative-position;
+    right: -40px
+  }
+
+}
+
+//client-logo
+.client-logo {
+  margin-top: -430px;
+}
+
+//client-logo
+
+.send-form-nuxt:hover {
+  color: $white;
+}
+
+.item-all {
+  @include relative-position;
+  top: 80px;
+  height: 960px;
+}
+
+@media(max-width:1664px) {
+  .item-all {
+    height: 1100px;
+  }
+  
+}
+@media(max-width:1792px){
+  .contact-commoncation{
+    position: relative;
+    top:-140px !important;
+    right:100px !important
+  }
+}
+
+
+// //commoncation
+.change-padding-blog {
+  height: 0px;
+  @include relative-position;
+  top: -550px
+}
+
+.card-one-neveshte {
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.card-two-neveshte {
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.card-three-neveshte {
+  margin-top: 40px;
+}
+
+.card-four-neveshte {
+  margin-top: 40px;
+}
+
+
+
+
+//projects
+.projects-block-nine {
+
+  position: relative;
+  margin-bottom: 30px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.projects-block-nine .inner-box {
+  /* -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); */
+  overflow: hidden;
+  position: relative;
+}
+
+.projects-block-nine .inner-box img {
+  width: 100%;
+  padding: 70px;
+}
+
+.projects-block-nine .inner-box .box-content {
+  border-radius: 25px;
+  width: 100%;
+  height: 86%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  position: absolute;
+  top: 25px;
+  right: 0;
+  -webkit-transition: all 450ms ease-out 0s;
+  -o-transition: all 450ms ease-out 0s;
+  -moz-transition: all 450ms ease-out 0s;
+  transition: all 450ms ease-out 0s;
+  -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
+  -moz-transform: rotateY(180deg) scale(0.5, 0.5);
+  transform: rotateY(180deg) scale(0.5, 0.5);
+}
+
+.projects-block-nine .inner-box:hover .box-content {
+  opacity: 1;
+  -webkit-transform: perspective(400px) rotateX(0deg);
+  -moz-transform: perspective(400px) rotateX(0deg);
+  transform: perspective(400px) rotateX(0deg);
+}
+
+.projects-block-nine .inner-box .title {
+  display: inline-block;
+  padding: 5px 7px;
+  background: $dark-orange;
+  font-size: 14px;
+  font-weight: 600;
+  color: $white;
+  margin: 0;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  -webkit-transition: all 900ms ease 0s;
+  -o-transition: all 900ms ease 0s;
+  -moz-transition: all 900ms ease 0s;
+  transition: all 900ms ease 0s;
+}
+
+.projects-block-nine .inner-box:hover .title {
+  bottom: -40px;
+}
+
+.projects-block-nine .inner-box .icon {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.projects-block-nine .inner-box .icon li {
+  display: inline-block;
+}
+
+.projects-block-nine .inner-box .icon li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: $white;
+  text-align: center;
+  font-size: 16px;
+  color: $dark-orange;
+  margin-left: 7px;
+  -webkit-transition: all 0.35s ease 0s;
+  -o-transition: all 0.35s ease 0s;
+  -moz-transition: all 0.35s ease 0s;
+  transition: all 0.35s ease 0s;
+}
+
+.projects-block-nine .inner-box .icon li a .fa-link {
+  vertical-align: middle;
+}
+
+.projects-block-nine .inner-box .icon li a:hover {
+  background: $white;
+  color: $black;
+}
+
+
+@media(max-width:689px) {
+  .contact-form-all {
+    position: relative;
+    right: -200px
+  }
+}
+
+@media(max-width:682px) {
+
+  .farda-about {
+    position: relative;
+    right: 140px
+  }
+
+  .change-mohtava-about {
+    position: relative;
+    right: 80px
+  }
+}
+
+@media(max-width:660px) {
+  .about-fanam {
+    position: relative;
+    right: -30px;
+  }
+
+  .farda-about {
+    position: relative;
+    right: 180px
+  }
+
+  .change-mohtava-about {
+    position: relative;
+    right: 130px
+  }
+
+ 
+}
+.btn-style-twelve{
+  font-size: 16px;
+}
+
+
+//footer
+.text-footer {
+  color: #95979a;
+  font-size: 14px;
+  position: relative;
+  top: 15px;
+}
+
+.thme-btn:hover {
+  background-color: $dark-orange;
+  color: $white;
+}
+
+.link {
+  position: relative;
+  top: 35px;
+}
+
+.fanam-webgah {
+  position: relative;
+  color: $white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+//footer
+
+@media(max-width:767px) {
+  .navbar-change-one{
+    margin-top:13px !important
+  }
+  #list-style-common{
+    position: relative !important;
+    top:-350px !important;
+    right:120px !important
+  }
+ 
+  .our-services {
+    height: 141rem;
+  }
+
+ 
+
+  .card-five {
+    width: 32rem !important;
+    right: -260px !important
+  }
+}
+@media(max-width:1416px){
+  #contact-common{
+    position: relative !important;
+    right:160px !important
+  }
+}
+
+
+@media(max-width:767px) {
+  .project-section {
+    height: 600px;
+  }
+.about-column{
+  position: relative !important;
+  top:200px !important
+}
+  .faranam-img {
+
+    height: 350px !important;
+  }
+
+ 
+}
+
+

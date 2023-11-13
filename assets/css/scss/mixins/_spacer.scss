@@ -1,0 +1,87 @@
+/* =========================================================================================
+    File Name: spacer.scss
+    Description: spacer  Component in  page sass
+    Component Name: spacer component
+    ----------------------------------------------------------------------------------------
+    Item Company: Fanam 
+      Author: pooria vakili
+
+==========================================================================================*/
+@mixin one-hundred-and-forty{
+    margin-right: -140px;
+  }
+  @mixin eighty{
+    margin-right: -80px;
+  }
+  @mixin one-hundred{
+    margin-right: -100px;
+  }
+  @mixin sixty{
+    margin-right: -60px;
+  }
+  @mixin one-hundred-twenty{
+    margin-right: -120px;
+  }
+  @mixin height-two-hundred{
+    height: 200px
+  }
+  @mixin margin-right-manfi{
+    margin-right: -25px;
+  }
+  @mixin width-seven-hundred{
+    width:700px
+  }
+  @mixin height-five-hundred{
+    height: 500px;
+  }
+  @mixin padding-xs{
+    padding:10px;
+  }
+  @mixin position-relative-font{
+    position: relative;
+    font-size: 14px;
+  }
+
+  .our-services{
+    position: relative ;
+    top:10px 
+  }
+ 
+  @mixin relative-position-right{
+    position: relative;
+    right: 400px;
+  }
+  
+  @mixin color-white {
+    color: white;
+  }
+  @mixin flex{
+    display: flex;
+  }
+  @mixin column{
+    flex-direction: column;
+  }
+  @mixin center{
+    justify-content: center;
+      align-items: center;
+  }
+
+  
+  @mixin cursor-mouse {
+    cursor: pointer;
+  }
+  @mixin relative-position{
+    position: relative;
+  }
+  @mixin absolute-position{
+    position: absolute;
+  }
+  @mixin rectangle-asly{
+    width: 10px; height: 10px; background-color: #e39717
+  }
+  @mixin top-one-hundred-twenty{
+    top:120px
+  }
+  @mixin right-twenty{
+    right:20px
+  }
